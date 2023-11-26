@@ -1,10 +1,12 @@
-import React from 'react'
-import { Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom'
-import { routeList } from './router-list'
+import React from "react";
+import {
+  RouterProvider,
+  createBrowserRouter
+} from "react-router-dom";
+import Header from "../components/header/Header";
+import ErrorPage from "../pages/errorPage/ErrorPage";
 import Home from "../pages/home/Home";
 import Login from "../pages/login/Login";
-import ErrorPage from '../pages/errorPage/ErrorPage';
-import Header from '../components/header/Header';
 
 const page = (component: string) => React.lazy(() => import(`../${component}`));
 
@@ -26,7 +28,7 @@ function AppRouter() {
       <Header />
       <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
 export default AppRouter;
