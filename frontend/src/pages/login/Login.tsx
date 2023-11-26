@@ -1,7 +1,9 @@
 import React from "react";
 
-function Login() {
-  return <div>Login ne</div>;
-}
+const Login = () => {
+  return <section className="row flexbox-container">
+    LOGIN PAGE
+  </section>;
+};
 
 export default Login;

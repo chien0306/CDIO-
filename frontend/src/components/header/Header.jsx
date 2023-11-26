@@ -1,5 +1,8 @@
 import React from "react";
+import "./header.css";
 
-export default function Header() {
-  return <div>Đây là header</div>;
-}
+const Header = () => {
+  return <div className="header">Đây là header</div>;
+};
+
+export default Header;

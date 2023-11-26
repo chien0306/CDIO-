@@ -25,11 +25,11 @@ export default function Home() {
         <nav>
           <ul>
             <li>
-              <a href={`/contacts/1`}>Your Name</a>
-              <Link to={`/login`}>Login</Link>
+              <a href={"/contacts/1"}>Your Name</a>
+              <Link to={"/login"}>Login</Link>
             </li>
             <li>
-              <a href={`/contacts/2`}>Your Friend</a>
+              <a href={"/contacts/2"}>Your Friend</a>
             </li>
           </ul>
         </nav>
